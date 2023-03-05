@@ -1,0 +1,14 @@
+{
+  "name": "docker_node_application",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Tetiana Chernova <chtania.2000@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node node.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "node.js": "^0.0.1-security"
+  }
+}

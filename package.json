@@ -5,12 +5,12 @@
   "author": "Tetiana Chernova <chtania.2000@gmail.com>",
   "main": "server.js",
   "scripts": {
-    "start": "node node.js"
+    "start": "node node.js",
+    "lint": "eslint ."
   },
   "dependencies": {
     "express": "^4.16.1",
     "node.js": "^0.0.1-security",
-    "eslint": "8.5.0",
-    "prettier": "2.5.1"
+    "eslint": "^8.36.0"
   }
 }

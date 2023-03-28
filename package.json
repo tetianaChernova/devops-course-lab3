@@ -10,6 +10,6 @@
   "dependencies": {
     "express": "^4.16.1",
     "node.js": "^0.0.1-security",
-    "lint": "eslint.js"
+    "lint": "5.57.0"
   }
 }

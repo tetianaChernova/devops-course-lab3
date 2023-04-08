@@ -18,7 +18,7 @@
    --cpu-quota define cpu quota
    --memor define memory limits
    
-   docker run -p 80:80 -d --cpu-period=50000 --cpu-quota=25000 --memory=512m  tchernova/node-app
+   docker run -p 80:8080 -d --cpu-period=50000 --cpu-quota=25000 --memory=512m  tchernova/node-app
 
 5. See the running containers list 
    docker ps

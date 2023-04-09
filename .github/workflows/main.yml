@@ -62,7 +62,7 @@ jobs:
         if: steps.build-publish.outcome == 'success'
         run: |
           docker pull ${{ secrets.DOCKERHUB_REPO }}:latest
-          docker run -d -p 80:8080 --name node-app ${{ secrets.DOCKERHUB_REPO }}:latest
+          docker run -d -p 80:80 --name node-app ${{ secrets.DOCKERHUB_REPO }}:latest
           sleep 10
           curl -I http://localhost:80/ | grep "200 OK"
         
